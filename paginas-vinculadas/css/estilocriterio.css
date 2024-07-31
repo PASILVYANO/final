@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hwb(210 40% 7%/0.442);
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #5fe6b9;
+  border-radius: 20px;
+  border: black solid 2px;
+}
+header .miLogo {
+  text-align: center;
+  padding: 50;
+  margin-top: 20;
+}
+header .miLogo img {
+  width: 150px;
+  border-radius: 20px;
+  margin: 20px;
+  border: black 2px solid;
+}
+header .miLogo img:hover {
+  border: white 4px solid;
+}
+header h1 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+header h1:hover {
+  color: hwb(180 59% 6%);
+  text-decoration: underline;
+}
+
+section {
+  background-color: rgba(176, 183, 243, 0.31);
+  padding: 20px;
+  width: 30%;
+  border-radius: 20px;
+  border: black solid 2px;
+  margin: 60px;
+  text-align: right;
+}
+section h2 {
+  color: #73b7f6;
+}
+section .origen {
+  color: white;
+  border: white 3px solid;
+  border-radius: 20px;
+}
+section .origen img {
+  display: block;
+  width: 50%;
+  border-radius: 10px;
+  margin: auto;
+  border: black 2px solid;
+  padding: 10px;
+  text-align: center;
+}
+section .origen p {
+  color: hsl(210, 25%, 94%);
+  text-align: center;
+  font-size: 2rem;
+}
+section .grado {
+  color: white;
+  border: white 3px solid;
+  border-radius: 20px;
+}
+section .grado img {
+  display: block;
+  width: 50%;
+  border-radius: 10px;
+  margin: auto;
+  border: black 2px solid;
+  padding: 10px;
+  text-align: center;
+}
+section .grado p {
+  color: hsl(210, 25%, 94%);
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: rgba(198, 202, 238, 0.3098039216);
+  padding: 20px;
+  width: 30%;
+  border-radius: 20px;
+  border: black solid 2px;
+  margin: 60px;
+  width: 90%;
+  text-align: center;
+}
+footer .img img {
+  width: 75px;
+  border-radius: 20px;
+  margin: 20px;
+  border: black 2px solid;
+}
+footer .img img:hover {
+  border: white 4px solid;
+}
+
+/*# sourceMappingURL=estilocriterio.css.map */

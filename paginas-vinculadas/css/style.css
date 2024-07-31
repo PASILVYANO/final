@@ -1,0 +1,193 @@
+/* inicio de paractica de CSS*/
+/*reseteo de código - Para unificar los espacios y margenes en todos los navehadores*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(209, 189, 181, 0.682);
+    font-family:'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgba(209, 189, 181, 0.682);
+    text-align: center;
+    margin-bottom: 20px;
+}
+H1, h2{
+    color:black;
+    font-family: 'Noto Sans Elymaic';
+}
+h4{
+    text-align: center;
+}
+header img {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20%;
+    width: 300px;
+    border: rgb(113, 113, 125) 8px solid;
+   }
+
+header nav{
+    list-style-type: none;
+    background-color: rgb(79, 190, 205);
+}
+p{
+    text-align: justify;
+    color: rgb(70, 66, 66);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 10px;
+    padding:2px;
+    }
+ 
+footer {
+        background-color: rgba(198, 202, 238, 0.3098039216);
+        padding: 20px;
+        width: 30%;
+        border-radius: 20px;
+        border: black solid 2px;
+        margin: 60px;
+        width: 90%;
+        text-align: center;
+      }
+footer .img img {
+        width: 75px;
+        border-radius: 20px;
+        margin: 20px;
+        border: black 2px solid;
+      }
+footer .img img:hover {
+        border: white 4px solid;
+      }
+li{
+    margin:10px;
+    padding: 5px;
+    display: inline-block;
+
+}
+.subte{
+    color: rgb(72, 74, 74);
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subte-seccion{
+    color: rgb(57, 55, 58);
+    text-align:justify;
+    font-size: 20px;
+    font-weight: bold;
+    width: 600px;
+    overflow: auto;
+    font-family: 'Courier New', Courier, monospace;
+    height: 200px;
+    margin: 0 auto;
+    border: 3px solid rgb(131, 140, 131);
+}
+
+nav a{
+    color:rgb(64, 191, 193);
+    font-size: 1,2rem;
+    font-weight: bold;
+    border: white 3px solid;
+    padding: 5px;
+    margin: 5px;
+    flex-direction: row;
+    color:white;
+    border-radius: 20%;
+    flex-wrap: wrap;
+    display: flex;
+    }
+.formulario{
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+    border: black;
+}
+.header nav ul{
+    list-style-type: none;
+}
+li{
+    margin:20px;
+    display: inline-block; 
+   }
+li a:hover{
+    color:green;
+    background-color: white;
+}
+a{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    /*elementos de todos las cajas: box model*/
+    margin:10px;
+    border:white 2px solid;
+    padding:10px;
+    
+
+}
+.subt{
+    color:green;
+    text-align: center;
+
+.seccion-imgCentralImg{
+        width: 90%;
+        height: auto; 
+        border-radius: 10%;
+        margin: left 0px;   
+        align-content: center;
+        position: absolute;
+        padding-left: 50px;
+        display:flex
+    }
+.container {
+        height: 300px;
+        width: 300px;
+        position: relative;
+      }
+}
+.titulo-sec-dos{
+    text-align: center;
+    text-decoration:underline;
+    margin: 20px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    
+    }
+    .mundo{
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        align-content: center;
+        margin-bottom: 2%;
+        border-radius: 10%;
+        }
+.planisferio{
+            width: 150px;
+            border-radius: 20px;
+        }
+.colorbarra{
+            background-color: orange;
+            }
+.dimacordeon{
+            width: 600px;
+            border: orange 5px solid;
+            margin: 0 auto;
+        }
+.imagen{
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20%;
+            width: 300px;
+            border: rgb(13, 13, 227) 10px solid;
+               }
+
+
+
+
+
+
+
